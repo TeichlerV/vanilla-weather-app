@@ -1,3 +1,40 @@
-h1 {
-  color: pink;
+body {
+  background-color: rgb(198, 255, 236);
+}
+.container {
+  margin-top: 70px;
+}
+.card {
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+#main-card {
+}
+#forecast-card {
+  width: 650px;
+  margin-bottom: 20px;
+}
+.change-city {
+  border-color: gray;
+  text-align: center;
+  padding: 2px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.city-text {
+  text-align: center;
+}
+.current-temperature {
+  text-align: center;
+}
+.city-name {
+  text-align: center;
+}
+.units {
+  text-align: center;
+}
+.condition {
+  text-align: center;
 }

@@ -1,1 +1,2 @@
-alert("hello");
+//Bild att använda //
+// https://www.google.com/search?q=weather&tbm=isch&ved=2ahUKEwjDiv6Ktfb7AhUChXMKHWcRCVIQ2-cCegQIABAA&oq=weather&gs_lcp=CgNpbWcQAzIECCMQJzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgcIABCABBATOggIABAFEB4QEzoICAAQCBAeEBNQhQxY2Q5g0hBoAHAAeACAAYACiAHeBJIBBTIuMC4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=xleYY8OPOoKKzgPnoqSQBQ&bih=757&biw=1440#imgrc=hCAQ98VGE9FDQM&imgdii=B-GDdTWAPsqO3M
