@@ -1,22 +1,30 @@
 body {
-  background-color: rgb(198, 255, 236);
+  background-image: url("visuals/himel.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 .container {
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .card {
-  width: 800px;
+  width: 750px;
+  height: 600px;
   display: block;
   margin: 0 auto;
 }
 #main-card {
   border-radius: 50%;
   padding: 80px;
+  background: rgba(255, 255, 255, 0.5);
 }
-
+.date {
+  text-align: center;
+  margin-top: 0px;
+}
 .change-city {
-  border-color: gray;
+  border: 1px solid rgb(111, 57, 70);
   text-align: center;
   padding: 2px;
   display: block;
@@ -30,6 +38,7 @@ body {
 }
 .city-text {
   text-align: center;
+  color: rgb(111, 57, 70);
 }
 .current-temperature {
   text-align: center;
@@ -39,8 +48,18 @@ body {
 }
 .units {
   text-align: center;
+  color: rgb(111, 57, 70);
 }
+a {
+  color: rgb(111, 57, 70);
+  text-decoration: none;
+}
+
 .condition {
   text-align: center;
   margin-top: 20px;
+  color: rgb(111, 57, 70);
+}
+#forecast-card {
+  color: rgb(111, 57, 70);
 }
