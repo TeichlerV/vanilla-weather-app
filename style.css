@@ -17,7 +17,7 @@ body {
   padding: 80px;
   background: rgba(255, 255, 255, 0.5);
 }
-.date {
+.current-date {
   text-align: center;
   margin-top: 0px;
   position: relative;
@@ -75,7 +75,7 @@ a {
   color: rgb(111, 57, 70);
   text-decoration: none;
 }
-.status {
+.status::first-letter {
   text-transform: capitalize;
 }
 .condition {
