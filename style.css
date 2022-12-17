@@ -10,11 +10,9 @@ body {
 }
 .card {
   width: 750px;
-  height: 600px;
+  height: 550px;
   display: block;
   margin: 0 auto;
-}
-#main-card {
   border-radius: 50%;
   padding: 80px;
   background: rgba(255, 255, 255, 0.5);
@@ -22,44 +20,76 @@ body {
 .date {
   text-align: center;
   margin-top: 0px;
+  position: relative;
+  top: -40px;
+}
+.form {
+  display: block;
+  margin: 0 auto;
 }
 .change-city {
   border: 1px solid rgb(111, 57, 70);
-  text-align: center;
   padding: 2px;
   display: block;
-  margin: 0 auto;
   margin-bottom: 30px;
   margin-top: 0px;
   border-radius: 35px;
+  text-align: center;
+  position: relative;
+  top: -20px;
+  left: 190px;
 }
-.current-temperature {
-  font-size: 40px;
+.search {
+  border: 1px solid rgb(111, 57, 70);
+  padding: 2px;
+  border-radius: 35px;
+  text-align: center;
+  position: relative;
+  width: 35px;
+  top: -80px;
+  left: 390px;
 }
 .city-text {
   text-align: center;
   color: rgb(111, 57, 70);
+  position: relative;
+  top: -55px;
 }
 .current-temperature {
+  font-size: 50px;
+  position: relative;
+  top: -60px;
   text-align: center;
 }
 .city-name {
   text-align: center;
+  font-size: 30px;
 }
 .units {
   text-align: center;
   color: rgb(111, 57, 70);
+  position: relative;
+  top: -45px;
 }
 a {
   color: rgb(111, 57, 70);
   text-decoration: none;
 }
-
 .condition {
   text-align: center;
   margin-top: 20px;
   color: rgb(111, 57, 70);
+  position: relative;
+  top: -50px;
 }
-#forecast-card {
+.row {
+  position: relative;
+  top: -100px;
+  right: -25px;
+}
+.coded-by {
+  text-align: center;
   color: rgb(111, 57, 70);
+  margin-top: 10px;
+  font-size: small;
 }
