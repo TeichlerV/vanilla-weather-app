@@ -38,22 +38,25 @@
             <span class="city-name" id="city"></span><span> ,it is</span>
           </div>
 
-          <div class="current-temperature" id="temperature"></div>
-          <div class="units">
-            <div class="celsius">
-              <a href="#" id="cel-link">°C</a> |<span class="fahrenheit">
-                <a href="#" id="fah-link"> °F</a></span
-              >
-            </div>
+          <div class="current-temperature">
+            <span id="temperature"></span>
+            <span class="units">
+              <span class="celsius">
+                <a href="#" id="cel-link">°C</a> |<span class="fahrenheit">
+                  <a href="#" id="fah-link"> °F</a></span
+                >
+              </span>
+            </span>
           </div>
-
           <div class="condition">
             <div class="status" id="description"></div>
-
-            <span class="humidity"
-              >Humidity: <span id="humidity"></span> %</span
+            <div class="status-emoji" id="emoji">☀️</div>
+            <span class="hum-wind">
+              <span class="humidity"
+                >Humidity: <span id="humidity"></span> %</span
+              >
+              <div class="wind">Wind: <span id="wind"> </span> km/h</div></span
             >
-            <div class="wind">Wind: <span id="wind"> </span> km/h</div>
           </div>
         </div>
         <div class="container px-5 py-5" id="forecast">

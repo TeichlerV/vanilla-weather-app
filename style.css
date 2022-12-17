@@ -10,7 +10,7 @@ body {
 }
 .card {
   width: 750px;
-  height: 550px;
+  height: 650px;
   display: block;
   margin: 0 auto;
   border-radius: 50%;
@@ -53,37 +53,50 @@ body {
   text-align: center;
   color: rgb(111, 57, 70);
   position: relative;
-  top: -55px;
-}
-.current-temperature {
-  font-size: 50px;
-  position: relative;
   top: -60px;
-  text-align: center;
 }
 .city-name {
   text-align: center;
   font-size: 30px;
 }
-.units {
+.current-temperature {
   text-align: center;
-  color: rgb(111, 57, 70);
+}
+#temperature {
+  font-size: 50px;
   position: relative;
-  top: -45px;
+  top: -60px;
+}
+.units {
+  color: rgb(111, 57, 70);
+  font-size: small;
+  position: relative;
+  top: -90px;
 }
 a {
   color: rgb(111, 57, 70);
   text-decoration: none;
 }
+.status {
+  position: relative;
+  top: -60px;
+}
 .status::first-letter {
   text-transform: capitalize;
+}
+.status-emoji {
+  font-size: 50px;
+  position: relative;
+  top: -65px;
 }
 .condition {
   text-align: center;
   margin-top: 20px;
   color: rgb(111, 57, 70);
+}
+.hum-wind {
   position: relative;
-  top: -50px;
+  top: -60px;
 }
 .row {
   position: relative;

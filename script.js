@@ -1,3 +1,4 @@
+// Current day and time
 function formatDate(timestamp) {
   let date = new Date(timestamp);
   let hours = date.getHours();
@@ -20,9 +21,8 @@ function formatDate(timestamp) {
   let day = days[date.getDay()];
   return `${day} ${hours}:${minutes}`;
 }
-
+// Current temperature
 function displayTemperature(response) {
-  console.log(response.data);
   let temperatureElement = document.querySelector("#temperature");
   let cityElement = document.querySelector("#city");
   let descriptionElement = document.querySelector("#description");
@@ -38,6 +38,7 @@ function displayTemperature(response) {
 }
 
 let apiKey = "f11513b2078ba14d724b13ea7a861bef";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Anniston&appid=${apiKey}&units=metric`;
+let city = "Malmö";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
