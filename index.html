@@ -16,6 +16,7 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -34,10 +35,10 @@
           </form>
           <div class="city-text">
             <span class="sentence">Right now in</span>
-            <span class="city-name">--</span><span> ,it is</span>
+            <span class="city-name" id="city"></span><span> ,it is</span>
           </div>
 
-          <div class="current-temperature">20</div>
+          <div class="current-temperature" id="temperature"></div>
           <div class="units">
             <div class="celsius">
               <a href="#" id="cel-link">°C</a> |<span class="fahrenheit">
@@ -47,8 +48,12 @@
           </div>
 
           <div class="condition">
-            <span class="humidity">Humidity: 80% </span>
-            <div class="wind">Wind: 22/km</div>
+            <div class="status" id="description"></div>
+
+            <span class="humidity"
+              >Humidity: <span id="humidity"></span> %</span
+            >
+            <div class="wind">Wind: <span id="wind"> </span> km/h</div>
           </div>
         </div>
         <div class="container px-5 py-5" id="forecast">
@@ -92,7 +97,7 @@
         </div>
       </div>
       <div class="coded-by">
-        Open source code by
+        Open-source code by
         <a href="https://github.com/TeichlerV/vanilla-weather-app"
           >Viktoria Teichler</a
         >

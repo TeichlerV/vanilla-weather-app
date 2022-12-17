@@ -75,6 +75,9 @@ a {
   color: rgb(111, 57, 70);
   text-decoration: none;
 }
+.status {
+  text-transform: capitalize;
+}
 .condition {
   text-align: center;
   margin-top: 20px;
