@@ -84,7 +84,7 @@ a {
 .status::first-letter {
   text-transform: capitalize;
 }
-.status-emoji {
+#emoji {
   font-size: 50px;
   position: relative;
   top: -65px;
