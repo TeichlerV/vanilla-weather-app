@@ -18,6 +18,12 @@
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -32,7 +38,6 @@
               placeholder="type a city.."
               autocomplete="off"
             />
-            <input class="search" type="submit" value="🔍" />
           </form>
           <div class="city-text">
             <span class="sentence">Right now in</span>
@@ -54,12 +59,12 @@
 
             <img src="#" alt="icon" id="emoji" />
 
-            <span class="hum-wind">
+            <div class="hum-wind">
               <span class="humidity"
                 >Humidity: <span id="humidity"></span> %</span
               >
-              <div class="wind">Wind: <span id="wind"> </span> km/h</div></span
-            >
+              <div class="wind">Wind: <span id="wind"> </span> km/h</div>
+            </div>
           </div>
         </div>
         <div class="container px-5 py-5" id="forecast">
@@ -101,13 +106,13 @@
             </div>
           </div>
         </div>
+        <p class="coded-by">
+          Open-source code by
+          <a href="https://github.com/TeichlerV/vanilla-weather-app"
+            >Viktoria Teichler</a
+          >
+        </p>
       </div>
-      <p class="coded-by">
-        Open-source code by
-        <a href="https://github.com/TeichlerV/vanilla-weather-app"
-          >Viktoria Teichler</a
-        >
-      </p>
     </div>
 
     <script src="script.js"></script>

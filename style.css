@@ -1,6 +1,7 @@
 body {
   background-image: url("visuals/himel.jpg");
   background-size: auto;
+  font-family: "Quicksand", sans-serif;
 }
 
 .container {
@@ -21,33 +22,22 @@ body {
   margin-top: 0px;
   position: relative;
   top: -40px;
-}
-.form {
-  display: block;
-  margin: 0 auto;
+  font-weight: bold;
 }
 .change-city {
   border: 1px solid rgb(111, 57, 70);
+  background: transparent;
   padding: 2px;
   display: block;
-  margin-bottom: 30px;
-  margin-top: 0px;
+  margin: 0 auto;
+  margin-bottom: 60px;
   border-radius: 35px;
   text-align: center;
+  width: 300px;
   position: relative;
   top: -20px;
-  left: 190px;
 }
-.search {
-  border: 1px solid rgb(111, 57, 70);
-  padding: 2px;
-  border-radius: 35px;
-  text-align: center;
-  position: relative;
-  width: 35px;
-  top: -80px;
-  left: 390px;
-}
+
 .city-text {
   text-align: center;
   color: rgb(111, 57, 70);
@@ -62,14 +52,14 @@ body {
   text-align: center;
 }
 #temperature {
-  font-size: 50px;
+  font-size: 60px;
   position: relative;
   top: -60px;
 }
 .units {
   font-size: small;
   position: relative;
-  top: -90px;
+  top: -75px;
 }
 #cel-link,
 #fah-link {
@@ -78,13 +68,15 @@ body {
 }
 #fah-link:hover {
   color: #fef4f3;
+  transition: all 200ms linear/ease-in-out;
 }
 #cel-link:hover {
   color: #fef4f3;
+  transition: all 200ms linear/ease-in-out;
 }
 .status {
   position: relative;
-  top: -60px;
+  top: -80px;
 }
 .status::first-letter {
   text-transform: capitalize;
@@ -92,7 +84,7 @@ body {
 #emoji {
   font-size: 50px;
   position: relative;
-  top: -65px;
+  top: -90px;
 }
 .condition {
   text-align: center;
@@ -101,17 +93,24 @@ body {
 }
 .hum-wind {
   position: relative;
-  top: -60px;
+  top: -90px;
 }
 .row {
   position: relative;
-  top: -100px;
+  top: -140px;
   right: -25px;
 }
 .coded-by {
   color: rgb(111, 57, 70);
   text-align: center;
+  position: relative;
+  top: -70px;
 }
 .coded-by a {
   color: rgb(111, 57, 70);
+  text-decoration: none;
+}
+.coded-by a:hover {
+  color: rgb(53, 27, 33);
+  transition: all 200ms linear/ease-in-out;
 }
