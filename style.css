@@ -67,14 +67,20 @@ body {
   top: -60px;
 }
 .units {
-  color: rgb(111, 57, 70);
   font-size: small;
   position: relative;
   top: -90px;
 }
-a {
+#cel-link,
+#fah-link {
   color: rgb(111, 57, 70);
   text-decoration: none;
+}
+#fah-link:hover {
+  color: #fef4f3;
+}
+#cel-link:hover {
+  color: #fef4f3;
 }
 .status {
   position: relative;
@@ -103,8 +109,6 @@ a {
   right: -25px;
 }
 .coded-by {
-  text-align: center;
   color: rgb(111, 57, 70);
-  margin-top: 10px;
-  font-size: small;
+  text-align: center;
 }
