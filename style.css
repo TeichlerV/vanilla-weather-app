@@ -56,24 +56,12 @@ body {
   position: relative;
   top: -60px;
 }
-.units {
-  font-size: small;
+.celsius {
+  font-size: medium;
   position: relative;
-  top: -75px;
+  top: -88px;
 }
-#cel-link,
-#fah-link {
-  color: rgb(111, 57, 70);
-  text-decoration: none;
-}
-#fah-link:hover {
-  color: #fef4f3;
-  transition: all 200ms linear/ease-in-out;
-}
-#cel-link:hover {
-  color: #fef4f3;
-  transition: all 200ms linear/ease-in-out;
-}
+
 .status {
   position: relative;
   top: -80px;
@@ -96,9 +84,10 @@ body {
   top: -90px;
 }
 .weather-forecast {
+  text-align: center;
   position: relative;
-  top: -100px;
-  right: -25px;
+  top: -80px;
+  right: -55px;
 }
 .upcoming-degrees-min {
   opacity: 0.5;
@@ -107,7 +96,7 @@ body {
   color: rgb(111, 57, 70);
   text-align: center;
   position: relative;
-  top: -70px;
+  top: 10px;
 }
 .coded-by a {
   color: rgb(111, 57, 70);
