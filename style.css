@@ -95,9 +95,9 @@ body {
   position: relative;
   top: -90px;
 }
-.row {
+.weather-forecast {
   position: relative;
-  top: -140px;
+  top: -100px;
   right: -25px;
 }
 .upcoming-degrees-min {
